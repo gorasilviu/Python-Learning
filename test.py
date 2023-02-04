@@ -9,11 +9,11 @@ if __name__ == '__main__':
 
     for i in range (len(list1)):
         
-        if min1<list1[i][1]:
+        if min1>list1[i][1]:
             min1=list1[i][1]
     
     for i in range (len(list1)):
-        if min2<list1[i][1] and min1!=list1[i][1]:
+        if min2>list1[i][1] and min1!=list1[i][1]:
             min2=list1[i][1]
 
 print(min1)
