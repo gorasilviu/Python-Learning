@@ -16,6 +16,7 @@ if __name__ == '__main__':
         if min2<list1[i][1] and min1!=list1[i][1]:
             min2=list1[i][1]
 
+print(min1)
     
 print(min2)
 
